@@ -1,0 +1,43 @@
+body{
+    background: rgb(107, 107, 241);
+    font: normal 15pt Arial;
+}
+header{
+    color: #fff;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(58, 57, 57);
+}
+.sessao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    height: 500px;
+    width: 700px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgb(61, 59, 59);
+
+}
+.sessao #msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sessao #imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    border-radius: 50px;
+    object-fit: cover;
+}
+footer{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}

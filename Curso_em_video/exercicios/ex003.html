@@ -1,0 +1,45 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando DOM</title>
+    <style>
+        body{
+            background:rgb(68, 125, 199);
+            color:#fff;
+            font: normal 18px Arial;
+        }
+        #clique{
+            background:rgb(42, 139, 42);
+            color: white;
+            width: 200px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="t">Iniciando estudos Dom</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="clique" onclick="clicar()">Clique Aqui</div>
+</body>
+<script>
+    var corpo=window.document.body
+    corpo.style.background='#000'
+
+    function clicar(){
+        var a = document.getElementById('clique')
+        a.style.background="#431231"
+    }
+
+    var t= document.querySelector('.t')
+    t.style.background="blue"
+
+</script>
+</html>
