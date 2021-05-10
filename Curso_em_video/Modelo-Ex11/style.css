@@ -1,0 +1,52 @@
+body{
+    background: rgb(107, 107, 241);
+    font: normal 15pt Arial;
+}
+header{
+    color: #fff;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(58, 57, 57);
+}
+.sessao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgb(61, 59, 59);
+}
+
+#res{
+    height: 400px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    flex-direction: column;   
+}
+
+.sessao .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin: auto;
+    width: 100px;
+    height: 3rem;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    color: #fff;
+    box-shadow: 2px 2px 8px rgb(119, 118, 118);
+}
+footer{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
